@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".KategoriActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/edu1"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
+        app:cardBackgroundColor="#9BBEC8">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/eisti"
+            android:layout_marginTop="-20dp"
+            tools:ignore="VectorDrawableCompat" />
+        <Button
+            android:id="@+id/kategori1"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:text="ISTIRAHAT"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/white"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/edu2"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        app:cardBackgroundColor="#9BBEC8">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/enutri"
+            tools:ignore="VectorDrawableCompat" />
+
+        <Button
+            android:id="@+id/kategori2"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:text="NUTRISI MAKANAN"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/edu3"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="400dp"
+        app:cardBackgroundColor="#9BBEC8">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/estimu"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/kategori3"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:text="STIMULASI JANIN"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/edu4"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="550dp"
+        app:cardBackgroundColor="#9BBEC8">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ebahaya"
+                tools:ignore="VectorDrawableCompat" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/kategori4"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:text="TANDA BAHAYA KEHAMILAN"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

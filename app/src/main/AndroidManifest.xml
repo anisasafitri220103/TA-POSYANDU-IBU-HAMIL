@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PosyanduEdu"
+        tools:targetApi="31">
+        <activity
+            android:name=".KjadwalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KeluarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KEdukasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Edu21Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Edu1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EduActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KategoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TentangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BahayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StimJaninActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OlahragaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PolaTidurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EdukasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NutrisiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrasiActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

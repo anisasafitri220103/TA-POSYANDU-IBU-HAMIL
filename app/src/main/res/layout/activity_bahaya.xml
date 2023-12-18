@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BahayaActivity"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/R_tidur"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bahaya" />
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="600dp">
+        <TextView
+            android:id="@+id/R_txt_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Tanda Bahaya"
+            android:layout_marginLeft="140sp"
+            android:layout_marginTop="270sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/R_txt_2"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-210sp"
+            android:layout_marginTop="300dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="@string/tandabahaya"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/R_txt_3"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-310sp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="@string/bahaya"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_backtbahaya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+</RelativeLayout>

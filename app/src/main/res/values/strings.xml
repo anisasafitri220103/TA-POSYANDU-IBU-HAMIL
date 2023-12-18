@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">posyanduEdu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listview">A list view is an adapter view that does not know the details, such as type and contents, of the views it contains.
+        Instead list view requests views on demand from a ListAdapter as needed, such as to display new views as the
+        user scrolls up or down. In order to display items in the list, call setAdapter(android.widget.ListAdapter)
+        to associate an adapter with the list. For a simple example, see the discussion of filling an adapter view
+        with text in the Layouts guide.</string>
+
+    <string name="checkbox">Checkboxes allow the user to select one or more options from a set.
+        Typically, you should present each checkbox option in a vertical list. To create each checkbox option,
+        create a CheckBox in your layout. Because a set of checkbox options allows the user to select multiple items,
+        each checkbox is managed separately and you must register a click listener for each one.</string>
+
+    <string name="imageview">ImageView class is used to display any kind of image resource in the android application
+        either it can be android.graphics.Bitmap or android.graphics.drawable.Drawable
+        (it is a general abstraction for anything that can be drawn in Android).
+        ImageView class or android.widget.ImageView inherits the android.view.View class which is the subclass
+        of Kotlin. AnyClass.Application of ImageView is also in applying tints to an image in order to reuse a
+        drawable resource and create overlays on background images. Moreover, ImageView is also used to control
+        the size and movement of an image.</string>
+
+    <string name="toggle">A toggle button allows the user to change a setting between two states.
+        You can add a basic toggle button to your layout with the ToggleButton object.
+        Android 4.0 (API level 14) introduces another kind of toggle button called a switch that provides
+        a slider control, which you can add with a Switch object.</string>
+
+    <string name="date">A thin wrapper around a millisecond value that allows JDBC to identify this as an SQL DATE
+        value. A milliseconds value represents the number of milliseconds that have passed since January 1, 1970 00:00:00.000 GMT.
+        To conform with the definition of SQL DATE, the millisecond values wrapped by a java.sql.Date instance
+        must be normalized by setting the hours, minutes, seconds, and milliseconds to zero in the particular time zone with which the instance is associated.
+        </string>
+
+    <string name="rating">A RatingBar is an extension of SeekBar and ProgressBar that shows a rating in stars.
+        The user can touch/drag or use arrow keys to set the rating when using the default size RatingBar.
+        The smaller RatingBar style ( R.attr.ratingBarStyleSmall) and the larger indicator-only style
+        (R.attr.ratingBarStyleIndicator) do not support user interaction and should only be used as indicators.
+        When using a RatingBar that supports user interaction, placing widgets to the left or right of the
+        RatingBar is discouraged.</string>
+
+    <string name="time">A thin wrapper around the java.util.Date class that allows the JDBC API to identify
+        this as an SQL TIME value. The Time class adds formatting and parsing operations to support the JDBC
+        escape syntax for time values.
+        The date components should be set to the "zero epoch" value of January 1, 1970 and should not be accessed.
+        </string>
+
+    <string name="stimulasi">Stimulasi janin adalah upaya untuk merangsang janin agar ia bergerak dan aktif. Stimulasi janin memiliki beberapa manfaat, antara lain:
+        Membantu ibu hamil untuk merasa lebih dekat dengan janinnya.
+        Membantu janin untuk mengembangkan kemampuan motoriknya.
+        Membantu janin untuk mempersiapkan diri untuk kelahiran.
+         Beberapa cara untuk melakukan stimulasi janin bersama suami: Pijat perut, Berbicara dan menyanyi, Membacakan buku, Bermain musik
+        </string>
+
+    <string name="polatidur"> Ibu hamil dianjurkan untuk tidur selama 7-9 jam setiap malam.
+        Selain itu, ibu hamil juga perlu meluangkan waktu untuk beristirahat di siang hari, terutama jika merasa lelah.
+        Selama kehamilan, tubuh ibu mengalami banyak perubahan, termasuk perubahan hormon, metabolisme, dan berat badan.
+        Perubahan-perubahan ini dapat menyebabkan gangguan tidur, seperti sulit tidur, sering terbangun di malam hari, dan insomnia.
+        </string>
+    <string name="tidur">Beberapa manfaat istirahat yang cukup bagi ibu hamil:
+        Meningkatkan energi, Meningkatkan kualitas tidur, Meningkatkan daya tahan tubuh, Membantu mengurangi stres, Membantu mengurangi risiko komplikasi kehamilan</string>
+
+    <string name="nutrisi">Kebutuhan nutrisi ibu hamil meningkat selama kehamilan untuk mendukung pertumbuhan dan perkembangan janin.
+        Asam folat yaitu dapat ditemukan pada sayuran hijau, jeruk, dan hati.
+        Zat besi yaitu dapat ditemukan pada daging merah, kacang-kacangan, sayuran hijau, dan biji-bijian.
+        Kalsium yaitu dapat ditemukan pada susu, produk olahannya, dan sayuran hijau.
+        Protein yaitu dapat ditemukan pada daging, ikan, telur, susu, dan produk olahannya.
+        Vitamin dan mineral ini dapat ditemukan pada berbagai jenis makanan.
+    </string>
+    <string name="makanan"> Nutrisi yang dibutuhkan selama kehamilan antara lain:
+            Kalori dibutuhkan untuk mendukung pertumbuhan dan perkembangan janin,
+            Protein dibutuhkan untuk pembentukan sel-sel baru, termasuk sel-sel janin.
+            Karbohidrat dibutuhkan sebagai sumber energi utama bagi ibu hamil dan janin.
+            Lemak dibutuhkan untuk untuk pembentukan otak dan sistem saraf janin.
+            Asam folat dibutuhkan untuk mencegah cacat tabung saraf pada janin.
+            Kalsium dibutuhkan untuk pembentukan tulang dan gigi janin.
+            Zat besi dibutuhkan untuk pembentukan sel darah merah.
+    </string>
+        <string name="pemeriksaan">Pemeriksaan dapat membantu mendeteksi dan menangani masalah kehamilan  sehingga dapat mencegah terjadinya komplikasi kehamilan.
+            Pemeriksaan kehamilan dianjurkan dilakukan minimal 4 kali  yaitu:
+            Trimester pertama (0-13 minggu): 1 kali
+            Trimester kedua (14-27 minggu): 1 kali
+            Trimester ketiga (28-40 minggu): 2 kali
+
+            Pemeriksaan kehamilan biasanya meliputi:
+            Pengukuran berat badan dan tinggi badan
+            Pemeriksaan tekanan darah
+            Pemeriksaan denyut nadi
+            Pemeriksaan denyut jantung janin
+            Pemeriksaan ukuran perut
+            Pemeriksaan kondisi serviks
+            Pemeriksaan urine
+            Pemeriksaan darah
+        </string>
+        <string name="tandabahaya">Tanda bahaya pada kehamilan adalah tanda/gejala yang menunjukan ibu dan bayi yang dikandungnya dalam keadaan bahaya. Kondisi-kondisi ini dapat terjadi kapan saja selama kehamilan, Bila ada tanda bahaya, ibu harus segera mendapat pertolongan di fasilitas kesehatan terdekat
+        </string>
+            <string name="bahaya">Berikut adalah tanda umum bahaya ibu hamil :
+            Muntah terus dan tak mau makan
+            Pendarahan pada hamil muda dan hamil tua, Perdarahan pada trimester pertama dapat menjadi tanda keguguran.
+            Air ketuban keluar sebelum waktunya  dapat menjadi tanda persalinan prematur.
+            Janin dirasakan kurang bergerak dibandingkan sebelumnya
+            Demam Tinggi
+            Bengkak kaki, tangan dan wajah, atau sakit kepala yang berlebihan disertai kejang
+            </string>
+    <string name="tbahaya">Tanda-tanda psikologis bahaya selama kehamilan meliputi:
+        Perubahan suasana hati yang drastis
+        Kegelisahan atau kecemasan yang berlebihan
+        Depresi
+        Pikiran untuk menyakiti diri sendiri atau janin
+    </string>
+</resources>

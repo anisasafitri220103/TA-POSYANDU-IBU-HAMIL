@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StimJaninActivity">
+    <ImageView
+        android:id="@+id/R_tidur"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/kstim" />
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="800dp">
+        <TextView
+            android:id="@+id/R_txt_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Stimulasi Janin"
+            android:layout_marginLeft="136sp"
+            android:layout_marginTop="280dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/R_txt_2"
+            android:layout_width="350sp"
+            android:layout_height="180sp"
+            android:layout_marginLeft="-240sp"
+            android:layout_marginTop="320dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/black"
+            android:text="@string/stimulasi"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/R_txt_3"
+            android:layout_width="350sp"
+            android:layout_height="180sp"
+            android:layout_marginLeft="-350sp"
+            android:layout_marginTop="450dp"
+            android:fontFamily="@font/poppinsmedium"
+
+            android:textColor="@color/black"
+            android:text="@string/stimulasi"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_backstim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="kembali"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>
